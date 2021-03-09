@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Imagefeed from './Imagefeed';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="wholediv">
+    <div className="heading">
+      photo grid
+    </div>
+    <Imagefeed />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
