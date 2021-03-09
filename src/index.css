@@ -14,13 +14,16 @@ code {
 .heading {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   border-bottom: 1px solid black;
   position: fixed;
   margin-top: -10px;
   height: 60px;
   background-color: rgb(215, 243, 91);
-  font-size: 40px;
+  font-size: 50px;
+  font-style: oblique;
+  font-weight: bold;
 }
 
 .grid {

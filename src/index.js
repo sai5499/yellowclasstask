@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <div className="wholediv">
     <div className="heading">
-      photo grid
+      Photo Feed
     </div>
     <Imagefeed />
     </div>
